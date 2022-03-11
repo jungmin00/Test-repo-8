@@ -5,6 +5,10 @@
 '''
 
 h="hello "
-b="bye"
-print(h*10)
-print(b*10)
+b="bye "
+a=input("h 혹은 b를 입력하세요: ")
+
+if a=='h':
+    print(h*3)
+elif a=='b':
+    print(b*3)
